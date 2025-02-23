@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+// 1. Recibir el número del usuario
+double numero;
+cin >> numero;
+
+// 2. Voy a restarle 7 asi que remplazo la multiplicacion por 2 por una resta de 7
+double resta = numero - 7;
+
+// 3. Mostrar el resultado
+cout << resta << endl;
+
+return 0;
+}

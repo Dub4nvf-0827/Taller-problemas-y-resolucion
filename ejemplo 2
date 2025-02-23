@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+// 1. Recibir el número del usuario
+double numero;
+cin >> numero;
+
+// 2. Voy a sumarle 30 asi que remplazo la multiplicacion por 2 por una suma de 30
+double suma = numero + 30;
+
+// 3. Mostrar el resultado
+cout << suma << endl;
+
+return 0;
+}

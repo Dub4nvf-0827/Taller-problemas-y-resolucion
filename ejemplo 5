@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+// 1. Recibir el número del usuario
+double numero;
+cin >> numero;
+
+// 2. Voy a elevar el numero a la 5 asi que remplazo la multiplicacion por 2 por una potencia de 5
+double potencia = numero *numero*numero*numero*numero;
+
+// 3. Mostrar el resultado
+cout << potencia << endl;
+
+return 0;
+}

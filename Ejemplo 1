@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+// 1. Recibir el número del usuario
+double numero;
+cin >> numero;
+
+// 2. Voy a quintuplicarlo asi que remplazo la multiplicacion por 2 por una multiplicacion por 5
+quintuple= numero * 5;
+
+// 3. Mostrar el resultado
+cout << quintuple << endl;
+
+return 0;
+}

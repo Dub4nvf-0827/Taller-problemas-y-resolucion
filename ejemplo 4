@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+// 1. Recibir el número del usuario
+double numero;
+cin >> numero;
+
+// 2. Voy a sacarle quinta asi que remplazo la multiplicacion por 2 por una division por 5
+double quinto = numero / 5;
+
+// 3. Mostrar el resultado
+cout << quinto << endl;
+
+return 0;
+}
